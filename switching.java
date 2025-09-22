@@ -26,6 +26,8 @@ public class switching {
              case "Saturday":
                  System.out.println("It is Saturday");
                  break;
+             default:
+                 System.out.println("Not available");
          }
     }
 }

@@ -11,6 +11,17 @@ public class Variables {
         string (collection of chars in double quotes)
          */
         int age = 24; //initialization
-        System.out.println(age);
+
+        // swapping two variables
+        /* this can be done by introducing a third variable
+         */
+        String x = "Money";
+        String y = "Cash";
+        String temp;
+        temp = x;
+        x = y;
+        y = temp;
+        System.out.println(x);
+        System.out.println(y);
     }
 }

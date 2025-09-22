@@ -1,8 +1,10 @@
 
 public class Main{
         public static void main(String[] args) {
-            Car myCar = new Car();
-            System.out.println(myCar.color);
+            Human human1 = new Human("winnie", 21, 60);
+            Human human2 = new Human("Nathan", 25, 85);
+
+            human1.eat();
         }
 
         }
